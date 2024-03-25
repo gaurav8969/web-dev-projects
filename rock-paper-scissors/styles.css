@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display:flex;
+}
+
+div.score-div{
+    display:block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p{
+    width:100%;
+    margin:0 auto;
+}
+
+input[type="checkbox"]{
+    margin-left: 10px;
+    color:green;
+}
